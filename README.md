@@ -1,4 +1,6 @@
-![Nuget](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.svg?style=flat-square)
+![nuget BytexDigital.Blazor.Server.Authentication](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.svg?style=flat-square)
+![nuget BytexDigital.Blazor.Server.Authentication.Identity](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.Identity.svg?style=flat-square)
+
 
 # BytexDigital.Blazor.Server.Authentication
 
