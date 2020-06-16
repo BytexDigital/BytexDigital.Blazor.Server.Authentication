@@ -1,11 +1,11 @@
-name: publish to nuget
+name: Publish Authentication to nuget
 on:
   push:
     branches:
       - master # Default release branch
 jobs:
   publish:
-    name: build, pack & publish
+    name: Authentication build, pack & publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
