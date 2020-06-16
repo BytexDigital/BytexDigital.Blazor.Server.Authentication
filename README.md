@@ -1,7 +1,3 @@
-![nuget BytexDigital.Blazor.Server.Authentication](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.svg?style=flat-square)
-![nuget BytexDigital.Blazor.Server.Authentication.Identity](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.Identity.svg?style=flat-square)
-
-
 # BytexDigital.Blazor.Server.Authentication
 
 This library adds a simple way of being able to sign in, sign out and remember the signed in user (e.g. via cookies) directly from Blazor without the need of redirecting the user to Razor pages.
@@ -12,8 +8,10 @@ Existing Blazor components such as `AuthorizeView` will continue to work as expe
 
 ## Download
 [:arrow_forward: **BytexDigital.Blazor.Server.Authentication** Nuget package](https://www.nuget.org/packages/BytexDigital.Blazor.Server.Authentication/)
+![nuget BytexDigital.Blazor.Server.Authentication](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.svg?style=flat-square)
 
 [:arrow_forward: **BytexDigital Blazor.Server.Authentication.Identity** Nuget package](https://www.nuget.org/packages/BytexDigital.Blazor.Server.Authentication.Identity/)
+![nuget BytexDigital.Blazor.Server.Authentication.Identity](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.Identity.svg?style=flat-square)
 
 ## How to use?
 #### 1. Install BytexDigital.Blazor.Server.Authentication.Identity
