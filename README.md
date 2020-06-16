@@ -14,7 +14,7 @@ Existing Blazor components such as `AuthorizeView` will continue to work as expe
 ![nuget BytexDigital.Blazor.Server.Authentication.Identity](https://img.shields.io/nuget/vpre/BytexDigital.Blazor.Server.Authentication.Identity.svg?style=flat-square)
 
 ## How to use?
-#### 1. Install BytexDigital.Blazor.Server.Authentication.Identity
+#### 1. Install `BytexDigital.Blazor.Server.Authentication` or `BytexDigital.Blazor.Server.Authentication.Identity`
 #### 2. Register the necessary services
 Make sure to register the services **after other calls to add Authentication services**.
 
