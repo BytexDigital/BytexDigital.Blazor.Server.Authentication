@@ -5,7 +5,7 @@ on:
       - master # Default release branch
 jobs:
   publish:
-    name: Authentication build, pack & publish
+    name: Authentication.Identity build, pack & publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,7 +27,7 @@ jobs:
           PACKAGE_NAME: BytexDigital.Blazor.Server.Authentication.Identity
           
           # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
-          # VERSION_FILE_PATH: Directory.Build.props
+          VERSION_FILE_PATH: BytexDigital.Blazor.Server.Authentication.Identity/obj/BytexDigital.Blazor.Authentication.Identity.csproj.nuget.g.props
 
           # Regex pattern to extract version info in a capturing group
           # VERSION_REGEX: <Version>(.*)<\/Version>
