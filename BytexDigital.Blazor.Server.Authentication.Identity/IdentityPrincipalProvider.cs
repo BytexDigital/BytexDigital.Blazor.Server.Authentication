@@ -15,7 +15,7 @@ namespace BytexDigital.Blazor.Server.Authentication
             _userManager = userManager;
         }
 
-        public async Task<ClaimsPrincipal> CreateClaimsPrinipalAsync(string userId, CancellationToken cancellationToken = default)
+        public async Task<ClaimsPrincipal> CreateClaimsPrincipalAsync(string userId, CancellationToken cancellationToken = default)
         {
             var user = await _userManager.FindByIdAsync(userId);
             var username = await _userManager.GetUserNameAsync(user);

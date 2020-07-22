@@ -6,6 +6,6 @@ namespace BytexDigital.Blazor.Server.Authentication
 {
     public interface IPrincipalProvider
     {
-        Task<ClaimsPrincipal> CreateClaimsPrinipalAsync(string userId, CancellationToken cancellationToken = default);
+        Task<ClaimsPrincipal> CreateClaimsPrincipalAsync(string userId, CancellationToken cancellationToken = default);
     }
 }

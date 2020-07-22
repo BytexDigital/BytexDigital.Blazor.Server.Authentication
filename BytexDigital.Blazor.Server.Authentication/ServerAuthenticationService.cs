@@ -30,7 +30,7 @@ namespace BytexDigital.Blazor.Server.Authentication
             {
                 if (userId != default)
                 {
-                    var principleClaims = await _principalProvider.CreateClaimsPrinipalAsync(userId, cancellationToken);
+                    var principleClaims = await _principalProvider.CreateClaimsPrincipalAsync(userId, cancellationToken);
 
                     return new AuthenticationState(principleClaims);
                 }
