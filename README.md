@@ -18,6 +18,11 @@ Existing Blazor components such as `AuthorizeView` will continue to work as expe
 #### 2. Register the necessary services
 Make sure to register the services **after other calls to add Authentication services**.
 
+##### Required in all cases
+```csharp
+services.AddHttpContextAccessor();
+```
+
 ##### With Identity
 ```csharp
 services
