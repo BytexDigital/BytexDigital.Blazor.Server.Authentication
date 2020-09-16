@@ -50,6 +50,11 @@ namespace BytexDigital.Blazor.Server.Authentication
             return _principalStorageProvider.GetClaimsPrincipalOrDefault()?.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value;
         }
 
+        public ClaimsPrincipal GetSignedInPrincipalOrDefault()
+        {
+            return _principalStorageProvider.GetClaimsPrincipalOrDefault();
+        }
+
         public async Task SignInAsAsync(string userId, bool setCookie = true, CancellationToken cancellationToken = default)
         {
             var authenticationState = await CreateClaimsPrincipalAsync(userId, cancellationToken);
