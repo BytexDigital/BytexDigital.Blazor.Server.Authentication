@@ -10,7 +10,7 @@
     <PackageIcon>logo_squared_128.png</PackageIcon>
     <RepositoryUrl>https://github.com/BytexDigital/BytexDigital.Blazor.Authentication</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
